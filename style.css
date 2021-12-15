@@ -1,0 +1,23 @@
+body
+{
+	background-image: url("background.jpeg");
+	background-attachment: fixed;
+	
+}
+
+p
+{
+    font-size: 25px;
+	color: red;
+	font-family: impact;
+}
+
+h2,ul
+{
+	color: blue;
+}
+
+.flottant
+{
+	float: left;
+}
