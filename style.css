@@ -5,19 +5,52 @@ body
 	
 }
 
-p
-{
-    font-size: 25px;
-	color: red;
-	font-family: impact;
-}
 
-h2,ul
+h2
 {
 	color: blue;
 }
 
-.flottant
+.bordure
 {
-	float: left;
+	border: 4px blue double;
+	color: red;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px blue;
+	text-shadow: 2px 2px 2px rgb(100,100,100);
 }
+
+.image-et-liste, .droite
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.liste-equipes
+{
+	margin-left: 20px;
+}
+
+.liste li
+{
+	margin-bottom: 10px;
+}
+
+li 
+{
+	color: rgb(120, 120,255);
+}
+
+.introduction
+{
+	font-size: 25px;
+	border: 3px cyan solid;
+}
+
+.image
+{
+	width: 500px;
+
+
+}
+
