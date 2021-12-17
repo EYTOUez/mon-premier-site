@@ -1,23 +1,16 @@
-body
-{
-	background-image: url("background.jpeg");
-	background-attachment: fixed;
-	
-}
-
-
 h2
 {
 	color: blue;
 }
 
-.bordure
+.titre-principal
 {
 	border: 4px blue double;
 	color: red;
 	border-radius: 10px;
 	box-shadow: 3px 3px 3px blue;
 	text-shadow: 2px 2px 2px rgb(100,100,100);
+	text-align: center;
 }
 
 .image-et-liste, .droite
@@ -39,12 +32,14 @@ h2
 li 
 {
 	color: rgb(120, 120,255);
+	font-size: 20px;
 }
 
 .introduction
 {
-	font-size: 25px;
+	font-size: 40px;
 	border: 3px cyan solid;
+
 }
 
 .image
@@ -53,4 +48,55 @@ li
 
 
 }
+
+a
+{
+	color: rgb(120, 120,255);
+}
+a:hover
+{
+	color: red;
+}
+
+.titre-tech
+{
+	display: inline-block;
+	border: 4px rgb(100, 100, 100) solid;
+	padding: 0 5px;
+	box-shadow: 3px 3px 3px rgb(100,100,100);
+}
+
+.description-equipe
+{
+	font-size: 30px;
+}
+.titre-care
+{
+	border: 3px rgb(103, 188, 132) solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre-commerciaux
+{
+	border: 3px white solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgb(200,200,200);
+    color:white;
+}
+
+.description-commerciaux
+{
+	font-size: 30px;
+	color: white;
+}
+
+
+
+
+
+
+
 
